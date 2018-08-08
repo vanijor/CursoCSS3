@@ -1,0 +1,379 @@
+/*
+AULA 01
+h1{
+	color: blue;
+	font-size: 60px;
+	font-family: tahoma;
+}
+ */
+/*
+AULA 02 e 03
+ 
+*{
+	margin: 0;
+	padding: 0;
+	color: red;
+}
+h1{
+	color: blue;
+	font-size: 50px;
+}
+p{
+	color: green;
+	font-size: 12px;	
+}
+input[type="text"]{
+	width: 200px;
+	background-color: #ccc;
+	height: 35px;
+	border: none;
+}
+input[name="email"]{
+	width: 200px;
+	background-color: #ccc;
+	height: 35px;
+	border: none;
+}
+input[type="submit"]{
+	width: 50px;
+	background-color: green;
+	height: 35px;
+	border: none;
+	color: #fff;
+}
+*/
+/*
+AULA 4
+h1, h2, p{
+	color: red;
+	text-align: center;
+}
+.texto-principal{
+	color: red;
+	text-align: center;
+}
+#conteudo{
+	background-color: blue;
+	padding: 20px;
+	color: green;
+}
+ */
+/*
+AULA 5
+#conteudo{
+	background-color: green;
+	color: #fff;
+	padding: 20px;
+	min-width: 500px;
+	min-height: 20px;
+}
+ */
+/*
+AULA 6
+ 
+#exemplo{
+	background-color: green;
+	color: #fff;
+	width: 500px;
+	padding: 10px 10px 10px 10px;
+}
+*/
+/* AULA 7
+#exemplo2{
+	background-color: red;
+	color: #fff;
+	width: 500px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+*/
+/*
+AULA 8 e 9
+p{
+	color: red;
+	text-align: justify;
+	text-transform: uppercase;
+	text-indent: 20px; paragrafo na primeira linha
+	line-height: 30px; altura da linha
+	direction: rtl; direção do texto
+	letter-spacing: 5px;  espaço entre letras
+	word-spacing: 5px;  espaço entre palavras
+}
+h1{
+	font-size: 50px;
+	text-align: left;
+	text-decoration: underline;
+	text-transform: lowercase;
+	direction: ltr;  direção do texto
+	text-shadow: 3px 3px 4px red; 
+	 sombra do texto text-shadow: (posicao horizontal)(posição vertical)(desfoque)(cor da sombra) 
+}
+h2{
+	text-align: right;
+	text-decoration: overline;
+	text-transform: capitalize;
+}
+h3{
+	text-align: center;
+	text-decoration: line-through;
+}
+*/
+/*
+AULA 10
+*{
+	box-sizing: border-box;  quando tem problema de padding com tamanho
+}
+#conteudo{
+	background-color: red;
+	width: 300px;
+	padding: 20px;
+	box-shadow: 10px 10px 5px green;	
+}
+ */
+/*
+AULA 11
+#conteudo{
+	background-color: red;
+	width: 300px;
+	height: 50px;
+	overflow: visible; padrao
+	overflow: scroll; barra de rolagem
+	overflow: auto; barra de rolagem auto
+}
+#conteudo p{
+	opacity: 0.5; tranparencia
+}
+ */
+/*
+AULA 12
+#bloco{
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	border-radius: 20px 50px 100px 200px;
+}
+#bloco1{
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+ */
+/*
+AULA 13
+*{
+	font-size: 100%;
+}
+p{
+	font-family: Times, "Times New Roman", serif;
+	font-variant: small-caps; ou normal
+	font-weight: bold; ou normal
+	font-style: italic; ou normal, oblique
+	font-size: 1em; 1em = 16px
+}
+ */
+/*
+AULA 14 e 15
+*{
+	font-size: 100%;
+}
+@font-face{
+	font-family: amaticsc;
+	src: url(../fonts/amaticsc-regular-webfont.woff);
+}
+p{
+	font-family: amaticsc;
+	font-size: 2.5em;
+}
+.texto{
+	font-family: 'Chela One', cursive;
+}
+ */
+/*
+AULA 16 e 17
+#cores{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(230, 89, 30);
+	background-color: rgba(230, 89, 30, 0.5);
+	background-color: hsl(20, 100%, 59%);
+	background-color: hsla(20, 100%, 59%, 0.5);
+}
+#cores{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to top right, red, yellow);
+	background: linear-gradient(90deg, rgba(255, 0, 0, 0.5), rgba(58, 100, 50, 0.5));
+	background: radial-gradient(red, yellow);
+	background: repeating-linear-gradient(red, yellow 10%, green 20%);
+	background: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+	background: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+	background: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+ */
+/*
+AULA 18
+#base{
+	background-color: green;
+	width: 600px;
+	height: 600px;
+}
+#esquerda{
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+#direita{
+	background-color: blue;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+
+ */
+/*
+AULA 19
+ #conteudo{
+ 	width: 600px;
+ 	height: 1200px;
+ 	background-color: red;
+ 	position: relative; utilizar para dar ordem ao filho
+ }
+ #texto{
+ 	width: 500px;
+ 	background-color: green;
+ 	position: absolute; usar absolute sem o relative (ordena pelo navegador)
+ 	left: 0;
+ 	top: 0;
+ }
+ */
+/*
+AULA 20
+#exemplo {
+	border-style: solid; dashed, solid, double, groove, ridge, inset e outset.
+	border-width: 5px;
+	border-color: red;
+	border-top: 5px solid red;
+	border-left: 5px solid red;
+	border-right: 5px solid red;
+	border-bottom: 5px solid red;
+	border: 5px solid red;
+	outline: dotted 5px green; nao trabalha com bordas individuais
+}
+ */
+/*
+AULA 21
+#exemplo {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	
+	transition-property: width;
+	transition-duration: 2s;
+	transition-timing-function: linear; ease-in, ease-out, ease-in-out e linear
+	transition-delay: 2s;
+	transition: width 2s linear 1s, height 2s linear;
+	transition: all 2s linear;
+}
+#exemplo:hover {
+	width: 350px;
+	height: 350px;
+	background-color: green;
+}
+ */
+/*
+AULA 22
+body {
+	background-image: url('../img/1.png');
+	background-position: center; ou dois valores
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background: url('../img/1.png') center center/100% 100% no-repeat fixed;
+}
+ */
+/*
+AULA 23
+.container {
+	background-color: red;
+	width: 500px;
+	margin: 0 auto;
+}
+.box1 {
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.box2 {
+	background-color: blue;
+	width: 150px;
+	height: 150px;
+	float: right;
+}
+.container::before, .container::after {
+	content: '';
+	display: table;
+}
+.container::after {
+	clear: both;
+}
+ */
+/*
+AULA 24 
+
+somente para mostrar o site CanIUse
+ */
+/*
+AULA 25
+body {
+	background-color: blue;
+}
+button {
+	background-color: white;
+	color: red;
+	width: 100px;
+	height: 50px;
+	border: 2px solid currentColor;
+}
+*/
+/*
+AULA 26
+:root {
+	--fundo-azul: blue;
+	--fundo-vermelho: red;
+	--fundo-amarelo: yellow;
+	--cor-do-texto: #fff;
+	--espacamento: 20px;
+}
+#div1 {
+	background-color: var(--fundo-azul);
+	color: var(--cor-do-texto);
+	padding: var(--espacamento);
+}
+#div2 {
+	background-color: var(--fundo-vermelho);
+	color: var(--cor-do-texto);
+	padding: var(--espacamento);
+}
+#div3 {
+	background-color: var(--fundo-amarelo);
+	color: var(--cor-do-texto);
+	padding: var(--espacamento);
+}
+ */
+/*
+AULA 27
+.noticia:target {
+	background-color: #c3c3c3;
+	padding: 10px;
+}
+ */
+/*
+AULA 28
+
+mostrando reset e normalize
+ */
